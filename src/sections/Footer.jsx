@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="/">
             <img src={footerLogo} alt="logo" width={150} height={46} />
           </a>
-          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">Get shoes rady for the new term at your nearest Nike store. Find your perfect size in store. Get rewards</p>
+          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">Get shoes rady for the new term at your nearest Mike store. Find your perfect size in store. Get rewards</p>
         </div>
         <div className="flex items-center gap-5 mt-8">
           {socialMedia.map((icon) => (
@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
+        <div id="contact-us" className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
           {footerLinks.map((section) => (
             <div key={section.title}>
               <h4 className="text-white font-montserrat text-2xl leading-normal font-medium mb-6">{section.title}

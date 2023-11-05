@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3, customer4,shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -32,23 +32,23 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "Mike Cloud Walkers",
+        price: "$149.99",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "Mike VelocityRun X1",
+        price: "$129.99",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
-        price: "$220.20",
+        name: "Mike Classic Elegance",
+        price: "$79.99",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
-        price: "$230.20",
+        name: "Mike UrbanStride Pro",
+        price: "$89.95",
     },
 ];
 
@@ -74,14 +74,26 @@ export const reviews = [
     {
         imgURL: customer1,
         customerName: 'Morich Brown',
-        rating: 4.5,
+        rating: 4.0,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
         customerName: 'Lota Mongeskar',
-        rating: 4.5,
+        rating: 5.0,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL: customer3,
+        customerName: "Eleanor Jansen",
+        rating: 4.5,
+        feedback: "I've been searching for sneakers that combine style and comfort, and Mike nailed it. The sneakers are top-notch."
+    },
+    {
+        imgURL: customer4,
+        customerName: "Max Fisher",
+        rating: 5.0,
+        feedback: "From the moment I put on my Mike's, I fell in love. Nothing beats that premium feel. I'm never taking them off." 
     }
 ];
 
@@ -90,12 +102,12 @@ export const footerLinks = [
     {
         title: "Products",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Cloud Walkers", link: "/" },
+            { name: "TrailBlaze", link: "/" },
+            { name: "VelocityRun X1", link: "/" },
+            { name: "Classic Elegance", link: "/" },
+            { name: "UrbanStride Pro", link: "/" },
+            { name: "GymFlex Performance", link: "/" },
         ],
     },
     {
@@ -111,7 +123,7 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
+            { name: "customer@mike.com", link: "mailto:customer@mike.com" },
             { name: "+92554862354", link: "tel:+92554862354" },
         ],
     },
