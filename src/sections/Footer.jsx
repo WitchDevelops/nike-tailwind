@@ -10,7 +10,9 @@ const Footer = () => {
           <a href="/">
             <img src={footerLogo} alt="logo" width={150} height={46} />
           </a>
-          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">Get shoes rady for the new term at your nearest Mike store. Find your perfect size in store. Get rewards</p>
+          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
+          Get shoes ready for the new term at your nearest Mike store. Find your perfect size in-store and receive rewards for loyal customers.
+          </p>
         </div>
         <div className="flex items-center gap-5 mt-8">
           {socialMedia.map((icon) => (
