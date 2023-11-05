@@ -27,7 +27,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li key={link.name}
-                    className="text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer">
+                    className="text-white-400 font-montserrat text-base leading-normal hover:text-blue-400 cursor-pointer">
                     <a href={link.href}>{link.name}
                     </a>
                   </li>
@@ -46,7 +46,7 @@ const Footer = () => {
             alt="copyright sign"
             className="rounded-full m-0"
           />
-          <p>Copyright. All rights reserved</p>
+          <p>Coded by <a href="https://dominika-wojewska.netlify.app/" target="_blank" className="hover:text-blue-500">Dominika Wojewska</a> 2023</p>
         </div>
         <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
       </div>
