@@ -14,7 +14,7 @@ const Hero = () => {
       className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'
     >
       <div className='relative xl:w-2/5 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
-        <p className='text-xl font-montserrat text-blue-500'>
+        <p className='text-xl font-montserrat text-blue-600'>
           Our Summer collection
         </p>
 
@@ -26,11 +26,10 @@ const Hero = () => {
           <span className='text-blue-500 inline-block mt-3'>Mike</span> Shoes
         </h1>
         <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
-          Discover stylish Mike arrivals, quality comfort, and innovation for
-          your active life.
+          Discover stylish new arrivals from Mike, offering quality comfort and innovation for your active lifestyle.
         </p>
 
-        <Button label='Shop now' iconURL={arrowRight} />
+        <a href="#products"><Button label='Shop now' iconURL={arrowRight} /></a>
 
         <div className='flex justify-start items-start  w-full mt-20 gap-16'>
           {statistics.map((stat, index) => (

@@ -10,7 +10,9 @@ const Footer = () => {
           <a href="/">
             <img src={footerLogo} alt="logo" width={150} height={46} />
           </a>
-          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">Get shoes rady for the new term at your nearest Mike store. Find your perfect size in store. Get rewards</p>
+          <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
+          Get shoes ready for the new term at your nearest Mike store. Find your perfect size in-store and receive rewards for loyal customers.
+          </p>
         </div>
         <div className="flex items-center gap-5 mt-8">
           {socialMedia.map((icon) => (
@@ -27,7 +29,7 @@ const Footer = () => {
               <ul>
                 {section.links.map((link) => (
                   <li key={link.name}
-                    className="text-white-400 font-montserrat text-base leading-normal hover:text-slate-gray cursor-pointer">
+                    className="text-white-400 font-montserrat text-base leading-normal hover:text-blue-400 cursor-pointer">
                     <a href={link.href}>{link.name}
                     </a>
                   </li>
@@ -46,7 +48,7 @@ const Footer = () => {
             alt="copyright sign"
             className="rounded-full m-0"
           />
-          <p>Copyright. All rights reserved</p>
+          <p>Coded by <a href="https://dominika-wojewska.netlify.app/" target="_blank" className="hover:text-blue-500">Dominika Wojewska</a> 2023</p>
         </div>
         <p className="font-montserrat cursor-pointer">Terms & Conditions</p>
       </div>

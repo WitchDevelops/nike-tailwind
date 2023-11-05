@@ -11,7 +11,7 @@ const Subscribe = () => {
         <input 
           type="text"
           placeholder="subscribe@nike.com"
-          className="input"
+          className="input px-7 py-3"
         />
         <div className="max-sm:justify-end items-center max-sm:w-full">
           <Button label="Sign Up" fullWidth/>

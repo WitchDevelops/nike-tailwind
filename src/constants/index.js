@@ -32,21 +32,25 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
+        rating: 5.0,
         name: "Mike Cloud Walkers",
         price: "$149.99",
     },
     {
         imgURL: shoe5,
+        rating: 4.5,
         name: "Mike VelocityRun X1",
         price: "$129.99",
     },
     {
         imgURL: shoe6,
+        rating: 4.0,
         name: "Mike Classic Elegance",
         price: "$79.99",
     },
     {
         imgURL: shoe7,
+        rating: 4.5,
         name: "Mike UrbanStride Pro",
         price: "$89.95",
     },

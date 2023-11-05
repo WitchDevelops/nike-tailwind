@@ -3,6 +3,35 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+
+    {
+      content: `
+        .mobile-menu {
+          position: fixed;
+          top: 0;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          background-color: white;
+          transform: translateX(100%);
+          transition: transform 0.3s ease-in-out;
+          z-index: 40;
+        }
+
+        .mobile-menu.open {
+          transform: translateX(0);
+        }
+
+        .translate-x-full {
+          transform: translateX(100%);
+        }
+        
+        .translate-x-0 {
+          transform: translateX(0);
+        }
+      `,
+    },
+
   ],
   theme: {
     fontSize: {
@@ -23,10 +52,8 @@ export default {
       },
       colors: {
         'primary': "#ECEEFF",
-        "coral-red": "#FF6452",
         "slate-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        "white-400": "rgba(255, 255, 255, 0.9)"
       },
       boxShadow: {
         '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
@@ -37,7 +64,10 @@ export default {
       },
       screens: {
         "wide": "1440px"
-      }
+      },
+      transitionDuration: {
+        '300': '300ms',
+      },
     },
   },
   plugins: [],
